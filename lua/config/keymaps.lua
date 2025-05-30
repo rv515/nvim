@@ -17,3 +17,7 @@ keymap("n", "<S-l>", "<cmd>bnext<CR>", opts)
 
 -- Nvim Tree
 keymap("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", opts)
+
+-- Move row
+keymap("n", "<A-l>", ">>", opts)
+keymap("n", "<A-h>", "<<", opts)

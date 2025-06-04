@@ -2,7 +2,7 @@ local opts = { noremap = true, silent = true }
 local keymap = vim.api.nvim_set_keymap
 
 -- standart
-keymap("n", "<C-t>", "<cmd>tabnew %<CR>", opts)
+keymap("i", "<C-]>", "<ESC>", opts)
 keymap("n", "<S-q>", "<cmd>bdelete!<CR>", opts)
 
 -- navigation
@@ -16,8 +16,4 @@ keymap("n", "<S-h>", "<cmd>bprevious<CR>", opts)
 keymap("n", "<S-l>", "<cmd>bnext<CR>", opts)
 
 -- Nvim Tree
-keymap("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", opts)
-
--- Move row
-keymap("n", "<A-l>", ">>", opts)
-keymap("n", "<A-h>", "<<", opts)
+keymap("n", "]e", "<cmd>NvimTreeToggle<CR>", opts)

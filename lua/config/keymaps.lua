@@ -16,4 +16,4 @@ keymap("n", "<S-h>", "<cmd>bprevious<CR>", opts)
 keymap("n", "<S-l>", "<cmd>bnext<CR>", opts)
 
 -- Nvim Tree
-keymap("n", "]e", "<cmd>NvimTreeToggle<CR>", opts)
+keymap("n", "<Leader>e", "<cmd>NvimTreeToggle<CR>", opts)

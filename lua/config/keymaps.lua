@@ -2,7 +2,6 @@ local opts = { noremap = true, silent = true }
 local keymap = vim.api.nvim_set_keymap
 
 -- standart
-keymap("i", "<C-]>", "<ESC>", opts)
 keymap("n", "<S-q>", "<cmd>bdelete!<CR>", opts)
 
 -- navigation

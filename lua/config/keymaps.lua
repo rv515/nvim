@@ -17,4 +17,5 @@ keymap("n", "<S-l>", "<cmd>bnext<CR>", opts)
 -- Nvim Tree
 keymap("n", "<Leader>e", "<cmd>NvimTreeToggle<CR>", opts)
 
+-- Turning off the backlight
 keymap("n", "<Leader>l", "<cmd>nohlsearch<CR>", opts)

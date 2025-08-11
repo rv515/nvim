@@ -1,4 +1,8 @@
 return {
     "williamboman/mason.nvim",
-    opts = {},
+    opts = {
+        ui = {
+            border = "bold"
+        }
+    },
 }

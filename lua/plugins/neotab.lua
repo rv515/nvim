@@ -4,8 +4,8 @@ return {
     opts = {
         tabkey = "<Tab>",
         act_as_tab = true,
-        behavior = "nested", ---@type ntab.behavior
-        pairs = { ---@type ntab.pair[]
+        behavior = "nested",
+        pairs = {
             { open = "(", close = ")" },
             { open = "[", close = "]" },
             { open = "{", close = "}" },
@@ -23,7 +23,7 @@ return {
             },
             escape = {
                 enabled = false,
-                triggers = {}, ---@type table<string, ntab.trigger>
+                triggers = {},
             },
         },
     },

@@ -2,7 +2,7 @@ return {
     "williamboman/mason.nvim",
     opts = {
         ui = {
-            border = "bold"
-        }
+            border = "bold",
+        },
     },
 }
